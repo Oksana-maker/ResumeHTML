@@ -1,0 +1,32 @@
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 80%;
+     margin: auto;
+ } 
+  
+  img {
+    transition: transform 0.30s;
+  }
+  
+  .photo:hover img {
+    transform: scale(1.2);
+  }
+
+  table {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    box-shadow: 10px 5px 5px #296461;
+   }
+   td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid rgb(57, 125, 116); /* Параметры рамки */
+   }
+   th {
+    background:  #72b0ad; /* Цвет фона */
+    color: rgb(12, 1, 1);  /* Цвет текста */
+   }
+   tbody tr:hover {
+    background: #5e9a97; /* Цвет фона при наведении */
+    color:  rgb(12, 1, 1); /* Цвет текста при наведении */
+   }
