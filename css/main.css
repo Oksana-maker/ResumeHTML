@@ -1,91 +1,222 @@
 body {
-    margin: auto;
-    width:auto;
-    padding: 10px;
+    width: 90%;
     height: 100%;
-    background-color: #f9fafa;
-    font-size: 14px;
-    background-image: url('myimage.png');
+    display: block;
+    padding-left: 5%;
+    background: rgb(184, 245, 235);
+    text-align: center;
     background-position: center center;
     background-repeat: no-repeat;
-    font-family: Calibri;
+    font-family: Cambria;
     font-size: 15px;
-    text-align: left;
     letter-spacing: 2px;
+    box-shadow: 15px 15px 15px #296461;
+    animation: background 10s infinite alternate;
+  
 }
-.inline{
-    padding: auto;
-    margin: 50px;
-    top: auto;
-    display:inline-flex;
-}
-.text{
-     display:inline-flexbox;
-     left: 400px;
-   
-}
-.table {
-    padding: 3%;
-    /* margin: 3%; */
-    /* display: inline-flex; */
+
+footer {
+
+    margin-left: 1%;
+    width: 98%;
+    height: 100%;
     display: block;
-    background-color:#80bdba;
+    background: rgb(184, 245, 235);
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: Cambria;
+    font-size: 10px;
+    letter-spacing: 2px;
+    box-shadow: 15px 15px 15px #296461;
+  
+    }
+    
+@keyframes background {
+    50% {
+      background:  #5c9693;
+      box-shadow: 0 -140px 70px -120px rgb(125, 215, 163) inset,
+                  0 -210px 70px -120px rgb(52, 145, 145) inset,
+                  0 -280px 70px -120px rgb(208, 181, 239) inset;
+    }
+  }
+
+.bodyDesign {
+    box-shadow: 15px 15px 15px #296461;
+    font-size: 15px;
+    margin: 3%;
+    font-family: cursive;
+    background-color: #80bdba;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+
+.footerDesign {
+    box-shadow: 15px 15px 15px #296461;
+    font-size: 12px;
+    font-family: cursive;
+    background-color: #95c7c4;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
    
+}
+
+h1{
+    font-size: 50px;
+    padding: 2%;
+    margin: 3%;
+}
+textBoxFooter{
+    font-size: 50px;
+    padding: 2%;
+    margin: 3%;
+    width: 30%;
+    font-size: 10px;
+}
+
+.textBox{
+    margin: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    width: 90%;
+    height: auto;
+}
+
+
+.sizeDiv {
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+}
+
+.sizeDiv1 {
+    width: 20%;
+    text-align: left;
+    padding: 3%;
+}
+.divContact{
+    width: 60%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.card {
+    margin-top: 7%;
+    margin: 1%;
+    
+    padding: 5px;
+    background-color: #95c7c4;;
+    text-align: center;
+    box-shadow: 15px 15px 15px #296461;
+    border-radius: 15px;
+}
+div.card:hover{
+    transform: scale(1.2);
+    background: #5e9a97;
+    /* Цвет фона при наведении */
+    color: rgb(12, 1, 1);
+}
+
+.inline {
+    height: 95%;
+    width: 100%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+    margin: auto;
+    display: inline-flex;
+    text-align: center;
+
+
+}
+
+.text {
+    width: 95%;
+    /* padding: 30px; */
+    padding-top: 5%;
+    padding: 2%;
+    /* display: inline-flex; */
+    text-align: center;
+
+}
+
+.textBlok {
+    width: 45%;
+    /* padding: 30px; */
+    padding-top: 5%;
+    padding: 2%;
+    /* display: inline-flex; */
+    text-align: center;
+
+}
+
+
+.textOnly {
+    padding: 3%;
+    margin-bottom: 3%;
 }
 
 .photo {
     padding: 3%;
     width: 250px;
     height: 350px;
-    overflow: hidden;
-    display:inline-flexbox;
+    /* overflow: hidden; */
+    display: inline-flexbox;
     border-radius: 30px;
-  }
-.bodyDesign {
-    margin: 10%;
-    border: solid 2px #2f7c75;
-    font-size: 15px;
-    font-family: cursive;
-    background-color: #80bdba;
-    height: 100%;
 }
-
-.divRealkiri {
-    text-align: center;
-}
-
 
 .imgStyl {
-    width:150;
-    height: 200%;
+    width: 150;
+    height: 200px;
     left: 15px;
     display: inline-flexbox;
     border: 2px;
 }
 
-.divVideo{
+.divVideo {
 
     margin: auto;
-    width:auto;
+    width: auto;
     padding: 50px;
     text-align: center;
 
 }
+
 .item {
     margin-left: 150px;
-  }
-  
-  .photo2 {
+}
+
+.photo2 {
     width: 50px;
     height: 50px;
     margin: 0 auto;
     overflow: hidden;
-  }
-  
-  .personPhoto {
+}
+img.photo2:hover{
+    transform: scale(1.2);
+}
+div.alert-success:hover{
+    background: #5e9a97;
+    /* Цвет фона при наведении */
+    color: rgb(12, 1, 1);
+    /* Цвет текста при наведении */
+}
+
+.personPhoto {
     border-radius: 50%;
     width: 100%;
     max-width: 100%;
     height: 100%;
     margin: 0 auto;
-  }
+}
